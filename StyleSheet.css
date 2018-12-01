@@ -1,0 +1,26 @@
+h1{
+	text-align: center;
+	font-size: 12pt;
+	color: #afeeee;
+}
+
+#wrapper{
+	width: 1005px;
+	margin:0;
+}
+#leftcolumn,
+#rightcolumn {
+	border: 1px solid white;
+	float: left;
+	min-height: 450px;
+	color: white;
+}
+#leftcolumn {
+	width: 250px;
+	background-color: #111;
+}
+
+#rightcolumn {
+	width: 750px;
+	background-color: #777;
+}		
