@@ -8,8 +8,7 @@ h1{
 	width: 1005px;
 	margin:0;
 }
-#leftcolumn,
-#rightcolumn {
+#leftcolumn, #rightcolumn {
 	border: 1px solid white;
 	float: left;
 	min-height: 450px;
@@ -18,9 +17,12 @@ h1{
 #leftcolumn {
 	width: 250px;
 	background-color: #111;
+	min-height: 200px;
+	position: fixed;
 }
 
 #rightcolumn {
 	width: 750px;
 	background-color: #777;
+	float: right;
 }		
